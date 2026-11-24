@@ -1,0 +1,676 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Nabila Revalia Andini</Author>
+  <Title>ANALISIS PIECES TERHADAP KEPUASAN RESPONDEN DALAM PENGGUNAAN DOMPET DIGITAL SHOPEEPAY</Title>
+ </DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="Title">
+   <Font ss:FontName="Calibri" ss:Size="14" ss:Color="#1E3A8A" ss:Bold="1"/>
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="HeaderSection">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1E3A8A" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#0D2566"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#0D2566"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#0D2566"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#0D2566"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="HeaderDim">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#1E3A8A" ss:Bold="1"/>
+   <Interior ss:Color="#DBEAFE" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="DataCell">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+   </Borders>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="DataCellLeft">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#E2E8F0"/>
+   </Borders>
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="TotalRow">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#1E3A8A"/>
+   <Interior ss:Color="#EFF6FF" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#BFDBFE"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFDBFE"/>
+   </Borders>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="TotalRowLeft">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1" ss:Color="#1E3A8A"/>
+   <Interior ss:Color="#EFF6FF" ss:Pattern="Solid"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2" ss:Color="#BFDBFE"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#BFDBFE"/>
+   </Borders>
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="HighlightPuas">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#15803D" ss:Bold="1"/>
+   <Interior ss:Color="#DCFCE7" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#86EFAC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#86EFAC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#86EFAC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#86EFAC"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="HighlightSangatPuas">
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#1D4ED8" ss:Bold="1"/>
+   <Interior ss:Color="#DBEAFE" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#93C5FD"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Analisis PIECES ShopeePay">
+  <Table ss:ExpandedColumnCount="15" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="20">
+   <Column ss:Width="110"/>
+   <Column ss:Width="50"/>
+   <Column ss:Width="50"/>
+   <Column ss:Width="50"/>
+   <Column ss:Width="50"/>
+   <Column ss:Width="50"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="30"/>
+   <Column ss:Width="140"/>
+   <Column ss:Width="110"/>
+   <Column ss:Width="130"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="100"/>
+   
+   <Row ss:Height="26">
+    <Cell ss:MergeAcross="6" ss:StyleID="Title"><Data ss:Type="String">ANALISIS PIECES TERHADAP KEPUASAN RESPONDEN DALAM PENGGUNAAN DOMPET DIGITAL SHOPEEPAY</Data></Cell>
+   </Row>
+   <Row ss:Height="12"></Row>
+   
+   <!-- PERFORMANCE & TABEL REKAPITULASI -->
+   <Row>
+    <Cell ss:MergeAcross="6" ss:StyleID="HeaderDim"><Data ss:Type="String">1. PERFORMANCE (KINERJA)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="HeaderSection"><Data ss:Type="String">KATEGORI PENILAIAN</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">BATAS NILAI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Penilaian</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">STS (1)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">TS (2)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">N (3)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">S (4)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">SS (5)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Total</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="DataCellLeft"><Data ss:Type="String">Sangat Tidak Setuju</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">1,00 - 1,80</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="DataCellLeft"><Data ss:Type="String">Tidak Setuju</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">1,81 - 2,60</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="DataCellLeft"><Data ss:Type="String">Netral</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">2,61 - 3,40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="DataCellLeft"><Data ss:Type="String">Setuju</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">3,41 - 4,20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="DataCellLeft"><Data ss:Type="String">Sangat Setuju</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">4,21 - 5,00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Total Frekuensi</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <!-- TABEL REKAPITULASI PIECES -->
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Aspek PIECES</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Jumlah Skor (JSK)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Rata-rata Skor (JSK/JK)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Persentase (%)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Kategori</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Bobot Skor</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">222</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Performance</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">222</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4.0363636363636362</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">80.73%</Data></Cell>
+    <Cell ss:StyleID="HighlightPuas"><Data ss:Type="String">Puas</Data></Cell>
+   </Row>
+   
+   <!-- INFORMATION -->
+   <Row ss:Height="10"></Row>
+   <Row>
+    <Cell ss:MergeAcross="6" ss:StyleID="HeaderDim"><Data ss:Type="String">2. INFORMATION (INFORMASI)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Information</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">234</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4.2545454545454549</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">85.09%</Data></Cell>
+    <Cell ss:StyleID="HighlightSangatPuas"><Data ss:Type="String">Sangat Puas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Penilaian</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">STS (1)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">TS (2)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">N (3)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">S (4)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">SS (5)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Total</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Economics</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">218</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.9636363636363638</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">79.27%</Data></Cell>
+    <Cell ss:StyleID="HighlightPuas"><Data ss:Type="String">Puas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Control &amp; Security</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">225</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4.0909090909090908</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">81.82%</Data></Cell>
+    <Cell ss:StyleID="HighlightPuas"><Data ss:Type="String">Puas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Efficiency</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">232</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4.2181818181818178</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">84.36%</Data></Cell>
+    <Cell ss:StyleID="HighlightSangatPuas"><Data ss:Type="String">Sangat Puas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Service</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">223</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4.0545454545454547</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">81.09%</Data></Cell>
+    <Cell ss:StyleID="HighlightPuas"><Data ss:Type="String">Puas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">KESELURUHAN</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">1354</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">4.1030303030303035</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="String">82.06%</Data></Cell>
+    <Cell ss:StyleID="HighlightPuas"><Data ss:Type="String">Puas</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Total Frekuensi</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Bobot Skor</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">234</Data></Cell>
+   </Row>
+   
+   <!-- ECONOMICS -->
+   <Row ss:Height="10"></Row>
+   <Row>
+    <Cell ss:MergeAcross="6" ss:StyleID="HeaderDim"><Data ss:Type="String">3. ECONOMICS (EKONOMI)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Penilaian</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">STS (1)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">TS (2)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">N (3)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">S (4)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">SS (5)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">39</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Total Frekuensi</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Bobot Skor</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">132</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">218</Data></Cell>
+   </Row>
+
+   <!-- CONTROL & SECURITY -->
+   <Row ss:Height="10"></Row>
+   <Row>
+    <Cell ss:MergeAcross="6" ss:StyleID="HeaderDim"><Data ss:Type="String">4. CONTROL &amp; SECURITY (PENGENDALIAN &amp; KEAMANAN)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Penilaian</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">STS (1)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">TS (2)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">N (3)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">S (4)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">SS (5)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">47</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">43</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Total Frekuensi</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Bobot Skor</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">152</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">225</Data></Cell>
+   </Row>
+
+   <!-- EFFICIENCY -->
+   <Row ss:Height="10"></Row>
+   <Row>
+    <Cell ss:MergeAcross="6" ss:StyleID="HeaderDim"><Data ss:Type="String">5. EFFICIENCY (EFISIENSI)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Penilaian</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">STS (1)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">TS (2)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">N (3)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">S (4)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">SS (5)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">47</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">47</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Total Frekuensi</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Bobot Skor</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">172</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">232</Data></Cell>
+   </Row>
+
+   <!-- SERVICE -->
+   <Row ss:Height="10"></Row>
+   <Row>
+    <Cell ss:MergeAcross="6" ss:StyleID="HeaderDim"><Data ss:Type="String">6. SERVICE (LAYANAN)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Penilaian</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">STS (1)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">TS (2)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">N (3)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">S (4)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">SS (5)</Data></Cell>
+    <Cell ss:StyleID="HeaderSection"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">43</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 3</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="DataCellLeft"><Data ss:Type="String">Pertanyaan 5</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Total Frekuensi</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="TotalRowLeft"><Data ss:Type="String">Bobot Skor</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">152</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="TotalRow"><Data ss:Type="Number">223</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>0</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
